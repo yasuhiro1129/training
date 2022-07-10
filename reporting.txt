@@ -1,0 +1,85 @@
++++1+++
+1. 10 * 4 - 5 = 35
+2. 10/3: quo = 3, mod = 1
+10/3=3.3333333333333335, 10/3.0=3.3333333333333335
++++2+++
+35 is odd
++++3+++
+sequence of differences:
+0, 1, 3, 6, 10, 15, 21, 28, 36, 45, 
++++4+++
+1.
+  0. 0
+  1. 1
+  2. 2
+  3. 3
+  4. 4
+  5. 5
+  6. 6
+  7. 7
+  8. 8
+  9. 9
+ 10. 10
+2. elements from 3rd to 5th are:
+ 3, 4, 5, 
+  And last element is 10
+3. appended array is as below:
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+after removing 8th elements:
+0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 
++++5+++
+1.
+  0. a
+  1. b
+  2. c
+  3. d
+  4. e
+  5. f
+  6. g
+  7. h
+  8. i
+  9. j
+ 10. k
+2. elements from 3rd to 5th are:
+ d, e, f, 
+  And last element is k
+3. appended array is as below:
+a, b, c, d, e, f, g, h, i, j, k, 
+after removing 8th elements:
+a, b, c, d, e, f, g, i, j, k, 
++++6+++
+50th number of finabocci is 12586269025
++++7+++
+1. shape of a is (3, 3)
+a + a/2 = [[0. 0. 0.]
+ [0. 0. 0.]
+ [0. 0. 0.]]
+2. 3rd and later of a is [2 4 5]
+3. elements larger than 3 in a is [4 5]
+4.
+Before of a is [[1. 1. 1.]
+ [1. 1. 1.]
+ [1. 1. 1.]]
+After of a is [[2. 2. 2.]
+ [2. 2. 2.]
+ [2. 2. 2.]]
+array is [[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+2nd column of array is [4 5 6]
++++8+++
+1.
+By OpenCV
+lena's width : 256
+lena's height : 256
+lena's channel number : 3
+5.
+Type: <class 'cv2.VideoCapture'>
+Enable: True
+Width: 768.0
+Height: 576.0
+FPS: 25.0
+Frame Num: 100.0
+Total time: 4.0
++++4.3+++
+2:137.000000
